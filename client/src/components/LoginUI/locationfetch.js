@@ -28,7 +28,7 @@ export default function WasteSegregationGuide() {
 
     const data = { latitude: lat, longitude: lng };
     axios
-      .post("https://backend-hack-dtu.vercel.app/api/fetcher", data)
+      .post("https://trash-trades-backend.vercel.app/api/fetcher", data)
       .then((response) => {
         console.log(response);
         setWasteSchedule(response.data);
