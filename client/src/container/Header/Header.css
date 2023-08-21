@@ -1,0 +1,48 @@
+.app__header {
+    background-color: rgb(1, 22, 1);
+}
+.app__header-h1:hover{
+    color: yellowgreen;
+}
+.app__header-h1 {
+    font-family: var(--font-base);
+    color:  rgb(232, 232, 128);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 70px;
+    font-size: 50px;
+}
+
+
+.app__header-img img {
+    width: 80%;
+    height:100%
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
