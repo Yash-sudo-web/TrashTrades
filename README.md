@@ -20,6 +20,7 @@ This chat application allows users to create accounts, log in, and engage in rea
 
 ## Preview
 
+https://github.com/Yash-sudo-web/TrashTrades/assets/69838816/686cc422-e62e-4935-bfd0-102149d50f4b
 
 ## Technologies
  - MongoDB: NoSQL database for storing user data and chat messages.
