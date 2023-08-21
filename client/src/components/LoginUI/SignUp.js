@@ -16,7 +16,7 @@ export default function Signup(props) {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        const url = "https://backend-hack-dtu.vercel.app/api/user";
+        const url = "https://trash-trades-backend.vercel.app/api/user";
         const { Data: res } = await axios.post(url, Data);
         navigate("/login");
         console.log(res.message);
